@@ -46,7 +46,8 @@ return Scaffold(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(
-              height: 540,
+              //height: 540,
+              height: MediaQuery.of(context).size.height - 135,
               child : SingleChildScrollView(
                 physics: ScrollPhysics(),
                 //reverse: true,
